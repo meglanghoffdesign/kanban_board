@@ -219,11 +219,14 @@ tbody tr:nth-child(odd) {
   min-height:50px;
   min-width: 100px;
   background-color: #ffffff;
+  color: #000000;
 }
 
 .form select {
   height: 40px; /* Makes the dropdown larger */
   min-width: 200px;
+  background-color: #ffffff;
+  color: #000000;
 }
 
 .editBtn {
