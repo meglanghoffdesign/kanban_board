@@ -19,8 +19,5 @@ export default defineConfig({
         secure: false,
       },
     },
-    allowedHosts: [
-      'kanban-board.onrender.com',  // Replace this with your actual Render URL if different
-    ],
   },
 });
