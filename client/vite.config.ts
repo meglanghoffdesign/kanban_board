@@ -4,7 +4,7 @@ import { defineConfig } from 'vite';
 export default defineConfig({
   server: {
     host: '0.0.0.0',  // Allow all incoming requests (necessary for Render)
-    port: process.env.PORT || 3000,  // Use the port specified by Render or fallback to 3000 locally
+    port: Number(process.env.PORT) || 3000,  // Use the port specified by Render or fallback to 3000 locally
     open: true,  // Open the browser automatically when the dev server starts
     proxy: {
       // Proxy requests to the backend API
